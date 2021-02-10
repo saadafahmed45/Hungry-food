@@ -1,0 +1,33 @@
+img{
+    max-width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+#error-message{
+    display: none;
+    color: red;
+    text-align: center;
+}
+#food-items{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.meal-item{
+    margin: 15px;
+    text-align: center;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+}
+.meal-item h5{
+    padding: 10px 0;
+}
+.meal-details img{
+    border-radius: 10px;
+    height: 400px;
+    width: auto;
+}
+.meal-details ul li{
+    list-style: none;
+}
+.meal-details ul li i{
+    color: tomato;
+}
